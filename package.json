@@ -10,9 +10,9 @@
   "author": "Hourann Bosci (http://hourann.com)",
   "license": "LGPL",
   "readmeFilename": "README.md",
-  "dependencies" : {
-    "moment" : "^2.8.4",
-    "later" : "^1.1.6"
+  "dependencies": {
+    "later": "git://github.com/pekeler/later.git#sunday-2",
+    "moment": "^2.8.4"
   },
   "devDependencies": {
     "mocha": "^2.0.1"

@@ -7,7 +7,9 @@ suite('homepage examples', function() {
 
     [
       { cron: '0 * * * *', readable: 'Every hour, on the hour' },
+      { cron: '30 * * * 0', readable: 'Every 30th minute past every hour on Sun' },
       { cron: '30 * * * 1', readable: 'Every 30th minute past every hour on Mon' },
+      { cron: '30 * * * 7', readable: 'Every 30th minute past every hour on Sun' },
       { cron: '15,45 9,21 * * *', readable: '09:15, 09:45, 21:15 and 21:45 every day' },
       { cron: '18,19 7 5 * *', readable: '07:18 and 07:19 on the 5th of every month' },
       { cron: '* * 25 12 *', readable: 'Every minute on the 25th in Dec' },
