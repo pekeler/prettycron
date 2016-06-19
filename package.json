@@ -11,7 +11,7 @@
   "license": "LGPL",
   "readmeFilename": "README.md",
   "dependencies": {
-    "later": "git://github.com/pekeler/later.git#sunday-2",
+    "later": "git://github.com/wdtio/later.git#sunday",
     "moment": "^2.8.4"
   },
   "devDependencies": {
